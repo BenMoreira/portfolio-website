@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className='w-full fixed p-10 bg-blue'>
         <div className='flex flex-row justify-between items-center'>
           <div>
-            <p className='text-red text-2xl'>BM</p>
+            <p className='text-red text-2xl'>Benjamin Moreira</p>
           </div>
 
           <div className='flex flex-row items-center gap-12'>

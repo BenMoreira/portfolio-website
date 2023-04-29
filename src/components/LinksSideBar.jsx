@@ -3,8 +3,8 @@ import {AiOutlineGithub, AiOutlineLinkedin} from 'react-icons/ai'
 
 const LinksSideBar = () => {
   return (
-    <div className='bg-blue text-beige fixed h-screen w-[100px]'>
-        <div className='flex flex-col justify-center items-center gap-5 mt-[600px]'>
+    <div className='bg-blue text-beige fixed w-[100px] mt-[110px]'>
+        <div className='flex flex-col justify-end items-center gap-5 h-[calc(100vh-110px)] pb-8'>
             <div className=''>
                 <a href='https://github.com/BenMoreira'><AiOutlineGithub size='2rem' /></a>
             </div>

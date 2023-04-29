@@ -6,18 +6,13 @@
 }
 
 body{
-    overflow-x:hidden !important;
     font-family: 'Lato', sans-serif;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
-
-#cryptolist::-webkit-scrollbar {
-  /* width: 3px !important; */
-}
   
   /* Track */
   ::-webkit-scrollbar-track {
@@ -33,25 +28,4 @@ body{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #CAC0B3;
-  }
-
-  #expiry:focus{
-    outline:none !important;
-  }
-
-  #strike:focus{
-    outline:none !important;
-  }
-
-  table{
-    margin-left:auto;
-    margin-right:auto;
-    width: 120px !important;
-  }
-  #tooltipheader{
-    color: #969696 !important;
-  }
-
-  #tooltiptable{
-    margin-top: 4px;
   }

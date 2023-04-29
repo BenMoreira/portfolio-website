@@ -12,12 +12,11 @@ function App() {
   return (
     <div className='flex flex-row'>
       <Navbar />
-      
-      
 
+      <LinksSideBar />
+      
       <div className='w-full mt-[110px]'>
-        <LinksSideBar />
-        <div className='ml-[100px]'>
+        <div className=''>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/Home' element={<Home/>}/>
