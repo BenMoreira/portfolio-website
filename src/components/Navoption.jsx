@@ -5,7 +5,7 @@ const Navoption = ({path}) => {
     const location = useLocation();
 
     return (
-        <Link className={`text-2xl ${location.pathname.slice(1) === path ? "text-blue-400": "text-gray-800"}`} to={"/" + path}>
+        <Link className={`text-2xl ${location.pathname.slice(1) === path ? "text-red": "text-beige"}`} to={"/" + path}>
             <div className=''>
                 {path}
             </div>

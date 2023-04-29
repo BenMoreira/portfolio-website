@@ -7,7 +7,7 @@
 
 body{
     overflow-x:hidden !important;
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Lato', sans-serif;
 }
 
 /* width */
@@ -26,13 +26,13 @@ body{
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #84CAF5;
+    background: #FF595A;
     border-radius:10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #737373;
+    background: #CAC0B3;
   }
 
   #expiry:focus{

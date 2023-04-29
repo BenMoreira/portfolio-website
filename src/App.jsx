@@ -6,20 +6,26 @@ import Home from './pages/Home'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import LinksSideBar from './components/LinksSideBar'
 
 function App() {
   return (
     <div className='flex flex-row'>
       <Navbar />
+      
+      
 
-      <div className='mt-[110px]'>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/Home' element={<Home/>}/>
-          <Route path='/Projects' element={<Projects/>}/>
-          <Route path='/About' element={<About/>}/>
-          <Route path='/Contact' element={<Contact/>}/>
-        </Routes>
+      <div className='w-full mt-[110px]'>
+        <LinksSideBar />
+        <div className='ml-[100px]'>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/Home' element={<Home/>}/>
+            <Route path='/Projects' element={<Projects/>}/>
+            <Route path="/About" element={<About/>}/>
+            <Route path="/Contact" element={<Contact/>}/>
+          </Routes>
+        </div>
       </div>
     </div>
   )
