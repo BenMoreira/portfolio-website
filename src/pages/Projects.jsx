@@ -3,9 +3,9 @@ import ProjectCard from '../components/ProjectCard'
 
 const Projects = () => {
   return (
-    <div className='h-[calc(100vh-110px)] bg-blue text-red'>
+    <div className='h-[calc(100vh-80px)] bg-blue text-red'>
       <div className='w-[70%] mx-auto'>
-        <p className='pt-5 text-3xl font-bold'>
+        <p className='pt-10 text-3xl font-bold'>
           Projects I've worked on:
         </p>
 

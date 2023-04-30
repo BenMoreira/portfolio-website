@@ -5,7 +5,7 @@ import Logo from '../assets/logo-no-background.png'
 
 const Navbar = () => {
   return (
-    <nav className='w-full fixed p-10 bg-blue'>
+    <nav className='w-full fixed p-6 bg-blue shadow-2xl'>
         <div className='flex flex-row justify-between items-center'>
           <div>
             <p className='text-red text-2xl'>Benjamin Moreira</p>

@@ -15,7 +15,7 @@ function App() {
 
       <LinksSideBar />
       
-      <div className='w-full mt-[110px]'>
+      <div className='w-full mt-[80px]'>
         <div className=''>
           <Routes>
             <Route path='/' element={<Home/>}/>

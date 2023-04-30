@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='h-[calc(100vh-110px)] bg-blue w-full'>
+    <div className='h-[calc(100vh-80px)] bg-blue w-full'>
       <div className='w-[70%] mx-auto'>
-        <div className='text-red font-bold text-3xl pt-5'>
+        <div className='text-red font-bold text-3xl pt-10 border-b border-beige'>
           About Me
         </div>
 
@@ -15,7 +15,7 @@ const About = () => {
           always something new to learn in it as well.
         </div>
 
-        <div className='text-red font-bold text-3xl pt-10'>
+        <div className='text-red font-bold text-3xl pt-10 border-b border-beige'>
           My Technical Skills
         </div>
 

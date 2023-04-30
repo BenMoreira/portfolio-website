@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='bg-blue h-[calc(100vh-110px)]'>
+    <div className='bg-blue h-[calc(100vh-80px)]'>
       <div className='mx-auto w-[70%] text-center'>
-        <div className='text-8xl pt-10 text-red'>
+        <div className='text-8xl pt-14 text-red'>
           Welcome.
 
           <div className='text-4xl pt-10 text-beige'>
