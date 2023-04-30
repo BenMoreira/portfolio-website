@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'blue' : '#001233',
+        'blue' : '#000040',
         'red' : '#FF595A',
         'beige' : '#CAC0B3',
       }
@@ -16,3 +16,4 @@ export default {
   plugins: [],
 }
 
+//#001233

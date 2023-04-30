@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='bg-blue h-[calc(100vh-110px)] w-full'>
-      <div className='mx-auto text-center'>
+    <div className='bg-blue h-[calc(100vh-110px)]'>
+      <div className='mx-auto w-[70%] text-center'>
         <div className='text-8xl pt-10 text-red'>
           Welcome.
 
