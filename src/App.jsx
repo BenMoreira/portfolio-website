@@ -19,7 +19,7 @@ function App() {
         <div className=''>
           <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/Home' element={<Home/>}/>
+            {/*<Route path='/Home' element={<Home/>}/>*/}
             <Route path='/Projects' element={<Projects/>}/>
             <Route path="/About" element={<About/>}/>
             <Route path="/Contact" element={<Contact/>}/>
