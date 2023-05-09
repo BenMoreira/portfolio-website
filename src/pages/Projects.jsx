@@ -22,7 +22,7 @@ const Projects = () => {
               description='A web application where you can bet tokens (not real money) on the prices of certain crypto coins 
               whether it goes up or down a certain strike %. For this project, Pair Progamming was used instead of each team member 
               having a different role.' tools='MERN, Coingecko API, TailwindCSS, Asana' 
-              github='https://github.com/BenMoreira/crypto-betting-app' deploy='' />
+              github='https://github.com/BenMoreira/crypto-betting-app' deploy='https://crypto-betting-app.netlify.app/' />
           </div>
         </div>
       </div>
