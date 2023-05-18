@@ -1,4 +1,5 @@
 import React from 'react'
+import Pdf from '../documents/ResumeIT.pdf'
 
 const Home = () => {
   return (
@@ -13,6 +14,10 @@ const Home = () => {
 
           <div className='text-2xl pt-10 text-beige'>
             I'm a Software Developer that has recently graduated, excited to get into the field.
+          </div>
+
+          <div className='text-2xl pt-10 text-beige'>
+            <a href={Pdf} className='border-2 border-beige rounded-lg px-5 py-2 hover:text-red hover:border-red'>Resume</a>
           </div>
         </div>
       </div>
