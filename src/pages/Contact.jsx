@@ -37,17 +37,17 @@ const Contact = () => {
             <div className='flex flex-col items-center'>
               <div className='flex flex-col w-1/2 pb-5'>
                 <label>Name</label>
-                <input type='text' name='name' className='rounded-lg text-black px-1 font-normal' />
+                <input type='text' name='name' className='rounded-lg text-red px-1 font-normal' />
               </div>
 
               <div className='flex flex-col w-1/2 pb-5'>
                 <label>Email</label>
-                <input type='email' name='email' className='rounded-lg text-black px-1 font-normal' />
+                <input type='email' name='email' className='rounded-lg text-red px-1 font-normal' />
               </div>
 
               <div className='flex flex-col w-1/2 pb-5'>
                 <label>Message</label>
-                <textarea name='message' className='rounded-lg text-black px-1 font-normal' />
+                <textarea name='message' className='rounded-lg text-red px-1 font-normal' />
               </div>
 
               <input type='submit' value='Send' className='cursor-pointer' />

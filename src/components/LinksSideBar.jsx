@@ -24,7 +24,9 @@ const LinksSideBar = () => {
                 scale:0.8
               }}
             >
-                <a href='https://www.linkedin.com/in/benjamin-moreira-338327210' className='hover:text-red'><AiOutlineLinkedin size='2rem' /></a>
+              <a href='https://www.linkedin.com/in/benjamin-moreira-338327210' className='hover:text-red'>
+                <AiOutlineLinkedin size='2rem' />
+              </a>
             </motion.div>
             <div className='w-[1px] h-[90px] bg-beige'>
             </div>

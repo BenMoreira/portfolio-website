@@ -11,7 +11,9 @@ const Home = () => {
         }}
         animate={{
           opacity: 1,
-          duration: 1
+          transition: {
+            duration: 0.5
+          }
         }}
       >
         <div className='text-8xl pt-14 text-red'>
