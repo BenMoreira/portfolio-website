@@ -1,25 +1,68 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const About = () => {
   return (
     <div className='h-[calc(100vh-80px)] bg-blue w-full'>
       <div className='w-[70%] mx-auto'>
-        <div className='text-red font-bold text-3xl pt-10 border-b border-beige'>
+        <motion.div className='text-red font-bold text-3xl pt-10 border-b border-beige'
+          initial={{
+            x: '-10vh'
+          }}
+          animate={{
+            x: 0,
+            transition: {
+              duration: 0.5
+            }
+          }}
+        >
           About Me
-        </div>
+        </motion.div>
 
-        <div className='text-beige text-xl w-[90%] pt-5'>
+        <motion.div className='text-beige text-xl w-[90%] pt-5'
+          initial={{
+            x: '-10vh'
+          }}
+          animate={{
+            x: 0,
+            transition: {
+              duration: 0.5
+            }
+          }}
+        >
           Hi! My name is Benjamin Moreira. I'm 22 years old, and I recently graduated from Georgia Gwinnett College with 
           a Bachelor's degree in Information Technology, with a concentration in Software Development. I've been coding/programming 
           for 4 years now, and its been great. I love the problem solving aspect of programming, and how there is 
           always something new to learn in it as well.
-        </div>
+        </motion.div>
 
-        <div className='text-red font-bold text-3xl pt-10 border-b border-beige'>
+        <motion.div className='text-red font-bold text-3xl pt-10 border-b border-beige'
+          initial={{
+            x: '-10vh'
+          }}
+          animate={{
+            x: 0,
+            transition: {
+              delay: 0.5,
+              duration: 0.5
+            }
+          }}
+        >
           My Technical Skills
-        </div>
+        </motion.div>
 
-        <div className='text-lg pt-5'>
+        <motion.div className='text-lg pt-5'
+          initial={{
+            x: '-10vh'
+          }}
+          animate={{
+            x: 0,
+            transition: {
+              delay: 0.5,
+              duration: 0.5
+            }
+          }}
+        >
           <div className='flex flex-col justify-start gap-5'>
             <div className='flex flex-row justify-start items-center gap-2'>
               <div className='bg-beige p-2 rounded-lg font-bold text-xl w-[245px] text-center'>
@@ -108,7 +151,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
