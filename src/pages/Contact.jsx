@@ -47,7 +47,16 @@ const Contact = () => {
           }}
         >
           Send me a message on Linkedin: 
-          <a href='https://www.linkedin.com/in/benjamin-moreira-338327210'><AiOutlineLinkedin size='2rem' /></a>
+          <motion.a href='https://www.linkedin.com/in/benjamin-moreira-338327210'
+            whileHover={{
+              scale: 1.2
+            }}
+            whileTap={{
+              scale:0.8
+            }}
+          >
+            <AiOutlineLinkedin size='2rem' className='hover:text-red'/>
+          </motion.a>
         </motion.div>
 
         <motion.div className='text-beige text-xl text-center pt-5'
@@ -94,7 +103,14 @@ const Contact = () => {
                 <textarea name='message' className='rounded-lg text-red px-1 font-normal' />
               </div>
 
-              <input type='submit' value='Send' className='cursor-pointer' />
+              <motion.input type='submit' value='Send' className='cursor-pointer border-2 rounded-lg px-3 py-1 border-beige hover:text-red hover:border-red' 
+                whileHover={{
+                  scale: 1.2
+                }}
+                whileTap={{
+                  scale: 0.8
+                }}
+              />
             </div>
           </motion.form>
         </div>
